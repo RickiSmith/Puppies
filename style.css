@@ -1,19 +1,20 @@
-body{
+ body{
   background-color:##eee;
   font-family: Helvetica, Arial, sans-serif;
   border: 2px solid #ffd24a;
   line-height: 1.6;
-  margin:0px;
+  margin:0;
 }
 
-.main_navigation >a{
+.main_navigation a{
   border:1px solid;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 5px 20px 5px 20px;
 
 }
 .main_navigation{
   margin-left: 20px;
+  margin-top: 15px;
 }
 h2{
   color:#1fabe5;
@@ -25,8 +26,9 @@ h3{
 
 header{
   background: #ff8523;
+  padding-top: 20px;
   padding-bottom: 30px;
-  min-height: 120px;
+  min-height: 110px;
   width: 100%;
 }
 
@@ -42,10 +44,9 @@ table {
     border-collapse: collapse;
 }
 
-table, th, td {
-    border: 1px solid #046c97;
-    padding-top: 10px;
-    padding-bottom: 10px;
+table td {
+    border: 1px solid #1fabe5;
+    padding: 10px;
 }
 
 ul{
@@ -56,9 +57,65 @@ div #page_content{
 }
 
 hr{
-border: 14px solid ##eee;
+border: 2px solid #eee;
+
 }
 
+table thead {
+	background-color:#1fabe5;
+	color: #ffffff;
+}
+
+table tbody tr td img{
+	height:25%;
+}
+
+table thead td{
+  border: 1px solid #046c97;
+}
+
+.name{
+  border: solid #ff8533;
+  background-color: #ff8533;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 15px;
+}
+
+form {
+	background: #eee;
+  padding-top: 5px;
+  border-radius: 4px;
+}
+
+.city_container{
+  padding: 20px;
+}
+
+.why{
+  padding-left: 20px;
+}
+
+.submit_container{
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.why textarea{
+  border-color: #1fabe5;
+  font-size: 12pt;
+  padding: 5px;
+}
+
+.submit_container input{
+  background: #1fabe5;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px;
+  text-transform: uppercase;
+}
 
 /*
 font info:
